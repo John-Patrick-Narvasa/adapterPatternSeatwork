@@ -12,6 +12,6 @@ public class GradingSystemAdapter implements SchoolManagementApp{
 
     @Override
     public void integrateSystem() {
-        as.recordGrades();
+        gs.recordGrades();
     }
 } 

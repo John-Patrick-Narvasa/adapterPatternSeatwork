@@ -12,10 +12,10 @@ public class SchoolManagementSys {
         SchoolManagementApp gsInt = new GradingSystemAdapter(gs);
 
         LibrarySystem ls = new LibrarySystem();
-        SchoolManagementApp gsInt = new LibrarySystemAdapter(ls);
+        SchoolManagementApp lsInt = new LibrarySystemAdapter(ls);
 
-        as.integrateSystem();
-        gs.integrateSystem();
-        ls.integrateSystem();
+        asInt.integrateSystem();
+        gsInt.integrateSystem();
+        lsInt.integrateSystem();
     }
 } 
